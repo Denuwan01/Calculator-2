@@ -12,22 +12,22 @@
     <div class="container">
         <div class="calculator">
             <input type="text" placeholder="0" id="output-screen">
-            <button fun onclick="clr()">CL</button>
-            <button fun onclick="del()">DEL</button>
-            <button fun onclick="display('%')">%</button>
-            <button fun onclick="display('/')">/</button>
+            <button onclick="clr()" class="fun">CL</button>
+            <button onclick="del()" class="fun">DEL</button>
+            <button onclick="percentage()" class="fun">%</button>
+            <button onclick="display('/')" class="fun">/</button>
             <button onclick="display('7')">7</button>
             <button onclick="display('8')">8</button>
             <button onclick="display('9')">9</button>
-            <button fun onclick="display('*')">*</button>
+            <button onclick="display('*')" class="fun">*</button>
             <button onclick="display('4')">4</button>
             <button onclick="display('5')">5</button>
             <button onclick="display('6')">6</button>
-            <button fun onclick="display('-')">-</button>
+            <button onclick="display('-')" class="fun">-</button>
             <button onclick="display('1')">1</button>
             <button onclick="display('2')">2</button>
             <button onclick="display('3')">3</button>
-            <button fun onclick="display('+')">+</button>
+            <button onclick="display('+')" class="fun">+</button>
             <button onclick="display('.')">.</button>
             <button onclick="display('0')">0</button>
             <button onclick="calculate()" class="equal">=</button>
@@ -35,8 +35,6 @@
     </div>
 
     <script src="main.js"></script>
-
-
 </body>
 
 </html>

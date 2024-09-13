@@ -28,7 +28,7 @@ input {
     height: 70px;
     widows: 260px;
     background-color: #ecf0f3;
-    box-shadow: inset -5px -5px 12px #ffffff, inset 2px 2px 5px 2px black;
+    box-shadow: inset -5px -5px 12px #ffffff, inset 2px 2px 2px 3px black;
     border: none;
     border-radius: 30px;
     color: rgb(70, 70, 70);
@@ -41,7 +41,7 @@ input {
 
 button {
     height: 50px;
-    width: 50px;
+    width: 55px;
     background-color: #ecf0f3;
     box-shadow: -5px -5px 12px #ffffff, 20px 20px 25px rgba(0, 0, 0, .16);
     border: none;
@@ -53,12 +53,12 @@ button {
 
 .equal {
     width: 115px;
-    border-radius: 40px;
+    border-radius: 30px;
     background-color: #ecf0f3;
     box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
 }
 
-.button .fun {
+.fun {
     height: 50px;
     width: 50px;
     background-color: #ecf0f3;
